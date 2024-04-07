@@ -7,13 +7,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body{
-
-    
-}
 /*header*/
 header{
     font-family: "Lato", sans-serif;
@@ -151,7 +146,7 @@ i{
 }
 
 .container{
-    /*background-color: blueviolet;  just for demonstration*/
+  
     min-height: calc(100vh - 68px - 12vh);
     
 }
@@ -197,7 +192,7 @@ h3{
 }
 
 .card-image1{
-   /* background-color: aqua;  just for demonstration*/
+   
     height: 200px;
     border-radius: 6px;
 
@@ -260,7 +255,7 @@ img{
 }
 
 .card-image2{
-   /* background-color: aqua;  just for demonstration*/ 
+
    height: 310px;
    border-radius: 7px;
 
@@ -293,7 +288,7 @@ img{
  }
  
  .card-image3{
-   /* background-color: aqua;  */
+   
     height: 320px;
     border-radius: 7px;
  

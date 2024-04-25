@@ -1,11 +1,12 @@
-@media screen and (max-width:1370px) {
+@media screen and (max-width:1384px) {
 
     header{
-        height: 30vh;
+        height: 29vh;
         
     }
 
     .search-box{
+        display: flex;
         justify-content: center;
         
     }
@@ -19,24 +20,32 @@
         width: 7vw;
     }
 
-    nav ul{
-        justify-content: center;
-        margin-top: 0px;
-        
-    }
-         
+   
     nav{
         flex-direction: column;
         
     }
 
+    nav ul{
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .cart{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 7px;
+    }
+
     .logo{
         justify-content: center;
         margin: 20px 0;
+        
     }
 
     .items ul li a{
         padding: 10px 8px;
+        
     }
 
    .slider{
@@ -49,10 +58,10 @@
 }
 
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:860px) {
 
     header{
-        height: 29vh;
+        height: 27vh;
     }
 
    
@@ -69,7 +78,7 @@
 
     nav ul{
         justify-content: center;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     .logo{
@@ -91,16 +100,16 @@
     }
 }
 
-@media screen and (max-width:695px) {
+@media screen and (max-width:700px) {
 
     header{
-        height: 33vh;
+        height: 29vh;
     }
 
    
     .search-box button{
         margin-left: -10px;
-        width: 12vw;
+        width: 16vw;
         
     }
 
@@ -109,9 +118,14 @@
     }
      
     nav ul{
-        
         justify-content: center;
-        margin:  0;
+        margin:  10px 0px;
+    }
+
+    .cart{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
     }
 
     .logo{
@@ -130,7 +144,7 @@
     }
 
     .items ul li{
-        padding: 15px;
+        gap: 10px;
     }
 
     .items ul li a{
@@ -148,9 +162,9 @@
 
 }
 
-@media screen and (max-width: 467px) {
+@media screen and (max-width: 410px) {
     header{
-        height: 33vh;
+        height: 30vh;
         overflow: hidden;
     }
 
@@ -159,16 +173,22 @@
     }
 
     nav ul{ 
-        margin-top: 0px;
+        margin-top: 10px;
     }
     
     nav ul li{
-        padding: 0 19px;
+        padding: 0 9px;
         
     }
 
+    .cart{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1px;
+    }
+
     nav .search-box{
-        margin-right: 50px;
+        margin-right: 10px;
     }
 
     .search-box{
@@ -190,6 +210,10 @@
         margin: 20px 0;
     }
 
+    .items ul li{
+       gap: 4px;
+    }
+
     .items ul li a{
         padding: 7px 10px;
     }
@@ -201,6 +225,10 @@
 
     .slider img{
          margin-top: -15px;
+    }
+
+    footer{
+        margin: 10px 0px;
     }
 
 }

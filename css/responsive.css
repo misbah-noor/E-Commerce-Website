@@ -1,7 +1,7 @@
 @media screen and (max-width:1384px) {
 
     header{
-        height: 29vh;
+        height: 33vh;
         
     }
 
@@ -56,7 +56,6 @@
 .slider img{
     margin-top: 15px;
 }
-
 
 @media screen and (max-width:860px) {
 
@@ -164,7 +163,7 @@
 
 @media screen and (max-width: 410px) {
     header{
-        height: 30vh;
+        height: 29vh;
         overflow: hidden;
     }
 

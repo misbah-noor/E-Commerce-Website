@@ -104,6 +104,7 @@ select{
     color: white;
     border: transparent;
     width: 20px;
+    outline: none;
 }
 
 option{
@@ -122,7 +123,7 @@ i{
 
 .items{
    /* margin:0  75px;*/
-    padding: 20px;
+    padding: 21px;
     box-shadow:inset 1px 1px 5px 2px rgb(242, 240, 229);
 }
 
@@ -142,6 +143,7 @@ i{
     gap: 10px;
     flex-wrap: wrap;
     list-style-type: none;
+
 }
 
 .items ul li a{

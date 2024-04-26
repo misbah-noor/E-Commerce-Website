@@ -1,7 +1,7 @@
 @media screen and (max-width:1384px) {
 
     header{
-        height: 33vh;
+        height: 38vh;
         
     }
 
@@ -57,10 +57,16 @@
     margin-top: 15px;
 }
 
+
+@media screen and (max-width:1024px){
+    header{
+        height: 34vh;
+    }
+}
 @media screen and (max-width:860px) {
 
     header{
-        height: 27vh;
+        height: 30vh;
     }
 
    
@@ -102,7 +108,7 @@
 @media screen and (max-width:700px) {
 
     header{
-        height: 29vh;
+        height: 30vh;
     }
 
    
@@ -143,7 +149,7 @@
     }
 
     .items ul li{
-        gap: 10px;
+        gap: 7px;
     }
 
     .items ul li a{
@@ -210,11 +216,11 @@
     }
 
     .items ul li{
-       gap: 4px;
+       gap: 1px;
     }
 
     .items ul li a{
-        padding: 7px 10px;
+        padding: 12px  10px ;
     }
 
    .slider {
@@ -232,3 +238,21 @@
 
 }
 
+@media screen and (max-width: 364px){
+     .items ul li{
+        gap: 18px;
+     }
+
+     .items ul li a{
+        padding: 0 0 2px 0;
+     }
+     header{
+        height: 29vh;
+     }
+}
+
+@media screen and (max-width: 343px){
+    .items ul li {
+        gap: 30px;
+    }
+}

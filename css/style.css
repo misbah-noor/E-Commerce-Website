@@ -122,16 +122,11 @@ i{
 /*section*/
 
 .items{
-   /* margin:0  75px;*/
     padding: 21px;
     box-shadow:inset 1px 1px 5px 2px rgb(242, 240, 229);
 }
 
 .items ul{
-   /* height: 68px;
-    display: flex;
-    justify-content: center;
-    align-items: center;*/
     padding: 10px;
 }
 

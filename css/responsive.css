@@ -238,9 +238,9 @@
 
 }
 
-@media screen and (max-width: 364px){
+@media screen and (max-width: 366px){
      .items ul li{
-        gap: 22px;
+        gap: 15px;
      }
 
      .items ul li a{
@@ -251,8 +251,14 @@
      }
 }
 
-@media screen and (max-width: 345px){
+@media screen and (max-width: 346px){
+    .items ul li{
+        gap: 13px;
+    }
+}
+
+@media screen and ( max-width: 335px){
     .items ul li {
-        gap: 32px;
+        gap: 28px;
     }
 }

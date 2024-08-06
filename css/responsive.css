@@ -1,7 +1,7 @@
 @media screen and (max-width:1384px) {
 
     header{
-        height: 38vh;
+        height: 28vh;
         
     }
 
@@ -60,13 +60,13 @@
 
 @media screen and (max-width:1024px){
     header{
-        height: 34vh;
+        height: 25vh;
     }
 }
 @media screen and (max-width:860px) {
 
     header{
-        height: 30vh;
+        height: 21vh;
     }
 
    
@@ -108,7 +108,7 @@
 @media screen and (max-width:700px) {
 
     header{
-        height: 30vh;
+        height: 23vh;
     }
 
    
@@ -169,7 +169,7 @@
 
 @media screen and (max-width: 410px) {
     header{
-        height: 29vh;
+        height: 22vh;
         overflow: hidden;
     }
 
@@ -240,7 +240,7 @@
 
 @media screen and (max-width: 366px){
      .items ul li{
-        gap: 15px;
+        gap: 27px;
      }
 
      .items ul li a{
@@ -251,14 +251,20 @@
      }
 }
 
-@media screen and (max-width: 346px){
+@media screen and (max-width: 358px){
     .items ul li{
-        gap: 13px;
+        gap: 19px;
     }
 }
 
-@media screen and ( max-width: 335px){
+@media screen and ( max-width: 343px){
     .items ul li {
-        gap: 28px;
+        gap: 17px;
+    }
+}
+
+@media screen and (max-width: 336px){
+    .items ul li{
+        gap: 30px;
     }
 }

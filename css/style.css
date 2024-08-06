@@ -7,21 +7,29 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 /*header*/
+
 header{
     font-family: "Lato", sans-serif;
     background: var(--main-bg-color);  
     height: 68px;
-    
-    
-    box-shadow:inset 1px 0px 9px rgb(156, 153, 135);
+    /* position: sticky;
+    z-index: 100;
+    top: 0;
+    left: 0; */
+    box-shadow: 1px 0px 9px rgb(156, 153, 135);
 }
 
 nav{
     display: flex;
-    padding: 0 65px;
+    padding: 10px 65px;
 }
 
 .logo{
@@ -30,6 +38,7 @@ nav{
     color: rgb(255, 255, 255);
     font: 1em sans-serif;
     margin: 0 10px;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.5);
 }
 
 .para{
@@ -67,10 +76,12 @@ span{
 .search-box button{
     font-family: "Lato", sans-serif;
     font-weight: 700;
+    transition: all 0.3s ease;
 }
 
 .search-box button:hover{
     font-weight: 900;
+    transition: all 0.3s ease;
 }
 
 nav ul{
@@ -88,15 +99,16 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s ease;
 }
 
 
 nav ul li a:hover{
-    font-weight: bolder;
-}
-
-.items ul li a:hover{
-    color: grey;
+    /* color: #e9e3e3; */
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.715);
+    transition: all 0.3s ease;
 }
 
 select{
@@ -110,11 +122,17 @@ select{
 option{
     background-color: white;
     color: black;
+    font-size: 18px;
+    
+}
+
+.cart{
+    margin: 4px 0px 12px 0px;
 }
 
 i{
     font-size: 25px;
-    margin: 0 15px;
+    margin: 0px 15px;
     padding: 5px;
     background-color: white;
 }
@@ -147,6 +165,11 @@ i{
     font-weight: 600;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
+    font-size: 18px;
+}
+
+.items ul li a:hover{
+    color: grey;
 }
 
 .container{
@@ -156,10 +179,15 @@ i{
 }
 
 .slider{
-   margin: 15px auto;
+   margin: 14px auto;
    overflow: hidden;
    width: 85vw;
    
+}
+
+.slider img{
+    width: 100%;
+    aspect-ratio: 16/9;
 }
 
 .heading1{
@@ -168,11 +196,12 @@ i{
     padding: 15px;
 }
 
-h3{
+h2{
     font-family: "lato" , sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     padding: 15px;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
 }
 
 .con1{
@@ -182,17 +211,19 @@ h3{
 }
 
 .card-1{
-    height: 330px;
+    height: 360px;
     width: 250px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     border-radius: 6px;
     text-align: center;
     margin: 10px;
+    transition: all 0.3s ease;
 }
 
 .card-1:hover{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     transform: scale(1.01);
+    transition: all 0.3s ease;
 }
 
 .card-image1{
@@ -214,6 +245,7 @@ img{
 
 .g-price{
     color: red;
+    margin: 10px 0;
 }
 
 .con1-btn{
@@ -245,18 +277,20 @@ img{
     padding: 15px;
 }
 .card-2{
-   height: 400px;
+   height: 450px;
    width: 250px;
    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
    border-radius: 7px;
    text-align: center;
    margin: 10px;
    padding: 7px 0;
+   transition: all 0.3s ease;
 }
 
 .card-2:hover{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
    transform: scale(1.01);
+   transition: all 0.3s ease;
 }
 
 .card-image2{
@@ -266,7 +300,7 @@ img{
 
 }
 .s-item{
-    margin-top: -30px;
+    padding: 14px;
     font-size: 20px;
     font-family: "Lato", sans-serif;
 }
@@ -278,17 +312,19 @@ img{
 }
 
 .card-3{
-    height: 470px;
+    height: 490px;
     width: 250px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     border-radius: 7px;
     text-align: center;
     margin: 10px;
+    transition: all 0.3s ease;
  }
  
  .card-3:hover{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     transform: scale(1.01);
+    transition: all 0.3s ease;
  }
  
  .card-image3{
@@ -299,7 +335,7 @@ img{
  
  }
  .k-item{
-     padding: 4px;
+     padding-top: 14px;
      font-size: 20px;
      font-family: "Lato", sans-serif;
  }
@@ -309,6 +345,7 @@ img{
 
 .discount{
     color: red;
+    margin: 10px 0;
 }
 
 .heading4{
@@ -318,13 +355,14 @@ img{
 }
 
 .card4{
-    height: 435px;
+    height: 460px;
     width: 250px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;  
     border-radius: 7px;
     text-align: center;
     line-height: 1.2;
     margin: 10px;
+    transition: all 0.3s ease;
 }
 
 .card-image4{
@@ -335,11 +373,12 @@ img{
 .card4:hover{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     transform: scale(1.01);
+    transition: all 0.3s ease;
 }
 
 .m-item{
     font-family: "Lato",sans-serif;
-    margin-top: 7px;
+    padding-top: 14px;
     font-size: 20px;
 }
 
@@ -350,13 +389,14 @@ img{
 }
 
 .card5{
-    height: 450px;
+    height: 470px;
     width: 250px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     border-radius: 7px;
     text-align: center;
     margin: 10px;
     line-height: 1.2;
+    transition: all 0.3s ease;
 }
 .card-image5{
     height: 300px;
@@ -367,12 +407,13 @@ img{
 .card5:hover{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     transform: scale(1.01);
+    transition: all 0.3s ease;
     
 }
 
 .w-item{
     font-family: "Lato",sans-serif;
-    margin-top: 7px;
+    padding-top: 14px;
     font-size: 20px;
 }
 
@@ -383,13 +424,14 @@ img{
 }
 
 .card6{
-    height: 430px;
+    height: 450px;
     width: 250px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     border-radius: 7px;
     text-align: center;
     margin: 10px;
     line-height: 1.2;
+    transition: all 0.3s ease;
 }
 .card-image6{
     height: 280px;
@@ -400,11 +442,12 @@ img{
 .card6:hover{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     transform: scale(1.01);
+    transition: all 0.3s ease;
 }
 
 .e-item{
     font-family: "Lato",sans-serif;
-    margin-top: 7px;
+    padding-top: 14px;
     font-size: 20px;
 }
 
@@ -415,11 +458,17 @@ footer{
     background: var(--main-bg-color);
     color: white;
     font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding: 6px 18px;
 
 }
 
 #f-section{
-    padding: 20px 14px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
